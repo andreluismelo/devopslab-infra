@@ -10,9 +10,9 @@ terraform {
 # Configura o Provider Google Cloud com o Projeto
 provider "google" {
 
-  credentials = file("gcpkey.json")
+  credentials = file("/home/vagrant/gcpkey.json")
 
-  project = "DEFINIR"
+  project = "lab-devops-cloud-353500"
   region  = "us-west1"
   zone    = "us-west1-b"
 }
